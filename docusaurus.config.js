@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: '工业大数据平台',
+  tagline: '产品手册',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -19,8 +19,9 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: '企业大数据产品部', // Usually your GitHub org/user name.
+  // projectName: 'docusaurus', // Usually your repo name.
+  projectName: 'ibdp',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -65,7 +66,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'IBDP工业大数据平台',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -79,8 +80,8 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'http://132.35.231.167:10012/user-resources-center/#/login',
+            label: '立即使用',
             position: 'right',
           },
         ],
@@ -115,20 +116,20 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: '更多',
             items: [
               {
                 label: 'Blog',
                 to: '/blog',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: '立即使用',
+                href: 'http://132.35.231.167:10012/user-resources-center/#/login',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} 数据平台开发组.`,
       },
       prism: {
         theme: lightCodeTheme,
